@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: rgb(242, 242, 242);
+}
+nav h1{
+    margin: 10px 0px 10px 11%;
+}
+nav{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin:15px 0px 10px 20px;
+}
+nav ul{
+    display: flex;
+    margin-left: 250px;
+    width: 35%;
+}
+nav a{
+    float: right;
+    margin:15px 0px 10px 20px;
+    color: black;
+}
+section{
+    display: flex;
+    margin: 2% 0%;
+}
+.section-Firstcolman, .article-Firstcolumn{
+    width: 25%;
+    margin: 0px 0px 0px 10%;
+    padding: 0px 1%;
+}
+.section-Secondcolman, .section-thirdcolman, .section-fouthcolumn{
+    width: 15%;
+    margin: 0% 1%;
+}
+.section-Firstcolman-First-image{
+    width: 100%;
+}
+.section-Firstcolman-second-image{
+    border-radius: 100%; 
+    width: 10%; 
+    margin: 10px 20px 0px 0px;
+}
+.section-Firstcolman-second-image, .section-Firstcolman h6{
+     display: flex;
+     float: left;
+}
+.section-Firstcolman p{
+    margin: 10px 0%;
+}
+.section-Firstcolman h1{
+    margin: 0px 0% 10px;
+    font-size: 200%;
+}
+.section-fouthcolumn
+{
+   border: 2px solid rgb(241, 142, 142);
+   margin: 0% 11% 10% 1%;
+}
+.section-fouthcolumn-row{
+    border-top: 2px solid rgb(88, 95, 102);
+}
+.section-fouthcolumn-row{
+    display: flex;
+}
+article{
+    display: flex;
+}
+.article-secondcolumn, .article-thirdcolumn{
+    width: 10%;
+}
+.article-Fourthcolumn
+{
+    width: 20%;
+    margin-left: 10%;
+}
+.article-Fourthcolumn-row
+{
+   display: flex;
+}
+footer{
+    display: flex;
+}
+.Fotter-secondcolumn-ul{
+    display: flex;
+}
