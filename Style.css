@@ -5,7 +5,9 @@
 li{
     list-style: none;
 }
-
+nav .list{
+    display: none;
+}
 header{
     background-color: rgb(242, 242, 242);
 }
@@ -22,7 +24,7 @@ nav li{
 nav ul{
     display: flex;
     margin-left: 250px;
-    width: 35%;
+    width: 40%;
 }
 nav a{
     float: right;
@@ -130,7 +132,20 @@ article li{
 }
 footer{
     display: flex;
+    background-color: black;
+    color: rgb(161, 159, 159);
 }
 .Fotter-secondcolumn-ul{
     display: flex;
+    padding-left: 400px;
+}
+.Fotter-Firstcolumn{
+    padding: 30px 11%;
+}
+.Fotter-secondcolumn-ul li{
+    border-radius: 100%;
+    background-color: rgb(161, 159, 159);
+    color: white;
+    padding: 10px 10px;
+    margin: 30px 10px;
 }
