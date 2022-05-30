@@ -5,17 +5,50 @@
 li{
     list-style: none;
 }
-nav .list{
-    display: none;
-}
 header{
     background-color: rgb(242, 242, 242);
 }
-nav h1{
-    margin: 10px 0px 10px 11%;
-}
 nav{
     display: flex;
+}
+.section-fouthcolumn-row{
+    border-top: 2px solid rgb(251, 251, 251);
+    display: flex;
+}
+span{
+    font-size: 350%;
+    color: rgb(242, 242, 242);
+}
+.section-fouthcolumn h2{
+    padding: 15px 30px;
+}
+.section-fouthcolumn p{
+    padding: 14px;
+}
+.section-fouthcolumn h4{
+    margin-top: 14px;
+}
+.Fotter-secondcolumn-ul li{
+    border-radius: 100%;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    padding: 10px 10px;
+    margin: 30px 10px;
+}
+.article-Fourthcolumn-image{
+    padding: 4px 30px 4px 0px;
+}
+.article-Fourthcolumn-row
+{
+   display: flex;
+   margin: 10px 0px;
+}
+@media only screen and (min-width: 800px){
+nav .list{
+    display: none;
+}
+nav h1{
+    margin: 10px 0px 10px 12%;
 }
 nav li{
     list-style: none;
@@ -35,38 +68,38 @@ section{
     display: flex;
     margin: 2% 0%;
 }
-.section-Firstcolman, .article-Firstcolumn{
+.section-Firstcolumn, .article-Firstcolumn{
     width: 25%;
     margin: 0px 0px 0px 11%;
     padding: 0px 1%;
 }
-.section-Secondcolman, .section-thirdcolman{
+.section-Secondcolumn, .section-thirdcolumn{
     width: 15%;
     padding: 0% 1%;
 }
-.section-Firstcolman-First-image{
+.section-Firstcolumn-First-image{
     width: 100%;
 }
-.section-Firstcolman-second-image{
+.section-Firstcolumn-second-image{
     border-radius: 100%; 
     width: 11%; 
     margin: 10px 0px 0px 0px;
 }
-.section-Firstcolman-second-image, .section-Firstcolman h6{
+.section-Firstcolumn-second-image, .section-Firstcolumn h6{
      display: flex;
      float: left;
 }
-.section-Firstcolman p, .section-Secondcolman p, .section-thirdcolman p {
+.section-Firstcolumn p, .section-Secondcolumn p, .section-thirdcolumn p {
     margin: 20px 0%;
 }
-.section-Secondcolman, .section-thirdcolman{
+.section-Secondcolumn, .section-thirdcolumn{
     border-left: 2px solid rgb(242, 242, 242);
 }
-.section-Firstcolman h1{
+.section-Firstcolumn h1{
     margin: 0px 0% 10px;
     font-size: 200%;
 }
-.section-Secondcolman h4,.section-thirdcolman h4{
+.section-Secondcolumn h4,.section-thirdcolumn h4{
     margin-bottom: 20px;
 }
 .section-fouthcolumn
@@ -74,25 +107,6 @@ section{
     width: 15%;
    border: 2px solid rgb(242, 242, 242);
    margin: 0% 10% 12% 1%;
-}
-.section-fouthcolumn-row{
-    border-top: 2px solid rgb(251, 251, 251);
-}
-.section-fouthcolumn-row{
-    display: flex;
-}
-span{
-    font-size: 350%;
-    color: rgb(242, 242, 242);
-}
-.section-fouthcolumn h2{
-    padding: 15px 30px;
-}
-.section-fouthcolumn p{
-    padding: 14px;
-}
-.section-fouthcolumn h4{
-    margin-top: 14px;
 }
 article{
     display: flex;
@@ -122,14 +136,6 @@ article li{
     width: 26%;
     margin-left: 1%;
 }
-.article-Fourthcolumn-image{
-    padding: 4px 30px 4px 0px;
-}
-.article-Fourthcolumn-row
-{
-   display: flex;
-   margin: 10px 0px;
-}
 footer{
     display: flex;
     background-color: black;
@@ -142,10 +148,97 @@ footer{
 .Fotter-Firstcolumn{
     padding: 30px 11%;
 }
-.Fotter-secondcolumn-ul li{
-    border-radius: 100%;
-    background-color: rgb(161, 159, 159);
+}
+@media only screen and (max-width: 576px)
+{
+    nav ul{
+        display: none;
+    }
+    nav h1{
+        margin: 10px 120px 10px 3%;
+    }
+    nav a{
+        padding: 15px 0 10px 10px;
+        color: black;
+    }
+    section {
+        margin: 30px 10px;
+    }
+    .section-Firstcolumn-First-image{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .section-Firstcolumn h1{
+        font-size: 200%;
+        margin: 20px 0px;
+    }
+    .section-Firstcolumn-second-image{
+        border-radius: 100%; 
+        width: 11%; 
+        margin: 25px 0px 0px 0px;
+    }
+    .section-Firstcolumn-second-image, .section-Firstcolumn h6{
+         display: flex;
+         float: left;
+    }
+    .section-Secondcolumn{
+        margin: 40px 0px 0px;
+    }
+    .section-Secondcolumn img, .section-thirdcolumn img
+    {
+          width: 100%;
+    }
+    .section-Secondcolumn p, .section-thirdcolumn p{
+        margin: 15px 0px;
+    }
+    .section-Secondcolumn h4, .section-thirdcolumn h4{
+        margin-bottom: 20px;
+        font-size: 110%;
+    }
+    .section-fouthcolumn
+   { 
+       border: 2px solid rgb(242, 242, 242);
+   }
+   article{
+    background-color: rgb(25, 25, 25);
+    padding: 40px 0 40px 20px;
+    color: #424242;
+  }
+  article, .article-Firstcolumn a{
+    color: rgb(161, 159, 159);
+}
+article h3{
     color: white;
-    padding: 10px 10px;
-    margin: 30px 10px;
+    margin-bottom: 20px;
+}
+.article-Firstcolumn p{
+    padding-bottom: 20px;
+}
+article li{
+    margin-bottom: 15px;
+}
+.article-Firstcolumn{
+    margin-bottom: 40px;
+}
+.article-secondcolumn, .article-thirdcolumn{
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+
+}
+footer{
+    background-color: black;
+    color: rgb(161, 159, 159);
+    padding: 40px 0px;
+}
+.Fotter-secondcolumn-ul{
+   align-content: center;
+    display: flex;
+    padding-left: 45px;
+}
+.Fotter-Firstcolumn{
+    display: block;
+    text-align: center;
+    
+}
 }
